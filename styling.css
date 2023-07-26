@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;800&family=Open+Sans:wght@300&family=Plus+Jakarta+Sans&display=swap');
+  
+  img{
+     position: relative;
+     filter: blur(2px);
+  }
+ 
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Nanum Myeongjo', serif;
+     font-weight: bold ;
+     font-size: 70px;
+}
+h3{
+    
+
+}
