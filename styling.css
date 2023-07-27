@@ -12,14 +12,39 @@
 }
 .centered {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Nanum Myeongjo', serif;
      font-weight: bold ;
      font-size: 70px;
 }
-h3{
-    
+
+.sentence {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Open Sans', sans-serif;
+     font-weight: bold;
+     font-size: 20px;;
+}
+    btn {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+     background-color: rgb(108, 71, 143);
+     color: white;
+      font-size: 16px;
+      padding: 12px 24px;
+       border: none;
+       cursor: pointer;
+        border-radius: 5px;
 
 }
+ .btn:hover {
+    background-color: black;
+  }
+  
