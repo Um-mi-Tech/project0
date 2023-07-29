@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;800&family=Open+Sans:wght@300&family=Plus+Jakarta+Sans&display=swap');
-  
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&family=Nanum+Myeongjo:wght@400;800&family=Open+Sans:wght@300&family=PT+Sans&family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&family=Nanum+Myeongjo:wght@400;800&family=Open+Sans:wght@300&family=PT+Sans&family=Plus+Jakarta+Sans&family=Sanchez&display=swap');
+
   img{
      position: relative;
      filter: blur(2px);
@@ -8,40 +10,44 @@
 .container {
     position: relative;
     text-align: center;
-    color: white;
 }
 .centered {
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: 'Nanum Myeongjo', serif;
-     font-weight: bold ;
+    font-family: 'Open Sans', sans-serif;
+     font-weight: 1000; ;
      font-size: 70px;
+     color: white;
 }
 
 .sentence {
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 50%;
+    color: white;
     transform: translate(-50%, -50%);
-    font-family: 'Open Sans', sans-serif;
-     font-weight: bold;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+     font-weight: 600;
      font-size: 20px;;
-}
 
- .btn{
+  
+  }
+  
+  button {
     position: absolute;
-    top: 55%;
-    left: 50%;
+    top: 62%;
+    left: 48%;
     transform: translate(-50%, -50%);
-    font-family: 'Open Sans', sans-serif;
-     background-color: rgb(113, 96, 129);
-     color: white;
-     border:3px;
-      padding: 6px;
-      word-spacing: 5px;
-      align-content: center;
-    }
-
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(102, 56, 148);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    text-align: center;
+    border-radius:10px ;
+  }
+  
   
