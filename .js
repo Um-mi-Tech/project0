@@ -1,10 +1,10 @@
 
-/* console.log("Hello world");
+console.log("Hello world");
   prompt("Enter your name");
   x = "Ummuhlikuthum";
-  console.log("Hello" + x );
+  console.log("Hello" +  x );
    let x = 4, y = 6;
-   console.log(x+y)*/
+   console.log(x+y)
    
   for(let line ="#"; line.length < 8;line+= "#")
   console.log(line);
@@ -16,5 +16,3 @@
     
 
 }*/
-<p class="test"></p>
-console.log(p);

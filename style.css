@@ -1,3 +1,39 @@
 body{
-    background-color: brown;
+    background-color: #292828;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+h2{
+    color: #fff;
+    text-align: center;
+}
+p{
+    text-align:center;
+    color: rgb(119, 116, 116);
+
+}
+h3{
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+h4{
+    text-align: center;
+    color:#fff;
+}
+
+ /*section{
+   height: 30%;
+   width: 40px;
+   position: relative;
+   align-content: center;
+ }
+ div{
+
+ }
+div.Mycontainer{
+
 }
